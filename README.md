@@ -1,21 +1,21 @@
-# Report Improvements
+# Report Improvements 举报改进
 
-A large collection of improvements to XenForo's reporting system.
+XenForo举报系统的大量改进。
 
-Note; when reports are sent to a forum, the warning<->report links can not be created!
+Note; 当报告被发送到论坛，警告<->举报链接无法创建!
 
-- Improve performance of Report Center by reducing stock XenForo N+1 query behaviour
-- Permission based access to the report center:
- - Default permissions set for groups (global/content) for groups with warn or edit basic profile permissions.
- - New Permissions:
-   - View Report center.
-   - Comment on open report
-   - Comment on closed report
-   - Update a report's status
-   - Assign report
-   - See reporter username 
-- Sends an Alert to moderators who have commented/reported on a report.
-  - Only sends an alert if the previous alert has not been viewed.
+- 通过减少储存 XenForo N+1 查询行为来提高举报中心的性能
+- 基于权限访问举报中心:
+ - 为用户组（全局/内容）设置默认权限，用于具有警告或编辑基本配置文件权限的用户组。
+ - 新权限：
+   - 查看举报中心
+   - 评论公开举报
+   - 评论已关闭举报
+   - 更新举报状态
+   - 分配举报
+   - 查看举报者用户名
+- 向评论/举报过举报的版主发送提醒。
+  - 只有在未查看上一个提醒时才会发送提醒。
   - Report Alerts link to the actual comments for longer reports.
   - Report Alerts include the title of the report.
 - Alert moderators if a report is assigned to them
