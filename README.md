@@ -16,10 +16,10 @@ Note; 当报告被发送到论坛，警告<->举报链接无法创建!
    - 查看举报者用户名
 - 向评论/举报过举报的版主发送提醒。
   - 只有在未查看上一个提醒时才会发送提醒。
-  - Report Alerts link to the actual comments for longer reports.
-  - Report Alerts include the title of the report.
-- Alert moderators if a report is assigned to them
-- Links Warnings to reports.
+  - 举报提醒链接到较长的举报的实际评论。
+  - 举报提醒包括举报的标题。
+- 如果报告被分配给版主，将通知版主
+- 将警告链接到举报。
   - Visible from the warning itself, and when issuing warnings against content.
 - Link reply bans to reports
   - Log reply bans into report system
